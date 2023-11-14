@@ -1,0 +1,17 @@
+[package]
+name = "pathfinder"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+log = "0.4.20"
+thiserror = "1.0.50"
+
+
+[[bin]]
+name = "pathfinder"
+test = true
+path = "src/bin/main.rs"
